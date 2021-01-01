@@ -1,5 +1,5 @@
 import sys 
-sys.setrecursionlimit(10**9) #재귀호출 횟수 셋팅
+#sys.setrecursionlimit(10**9) #재귀호출 횟수 셋팅
 
 def count_paper(x, y, N):
     global minus, zero, one
