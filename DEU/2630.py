@@ -2,7 +2,6 @@ import sys
 N = int(sys.stdin.readline())
 
 
-
 def count_paper(x, y, N):
     global white, color
     point = paper[x][y]
