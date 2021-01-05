@@ -1,6 +1,3 @@
-import sys
-
-
 def find(mList):
     temp1 = 0
     temp2 = 0
