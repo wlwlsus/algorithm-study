@@ -1,26 +1,15 @@
+def Solution(H, W, N):
+    width = N // H + 1
+    height = N % H
+
+    if(height == 0):
+        height = H 
+        width -= 1
+
+    print((height*100)+width)
+
 N = int(input())
-
-info = [list(map(int, input().split())) for _ in range(N)]
-
-def Solution(data):
-    height = data[0]
-    width = data[1]
-    seq = data[2]
-
-    tempH = 1
-    tempW = 1
-
-    for i in range(height*width):
-        
-        print(tempH)
-        seq -= 1
-        if(tempH == height):
-            tempH = 1
-            tempW += 1
-
-        if(seq == 0):
-            print((tempH*100) + tempW)    
-            return
-
-for i in info:
-    Solution(i)
+    
+for _ in range(N):
+    H, W, N = map(int, input().split())
+    Solution(H, W, N)
