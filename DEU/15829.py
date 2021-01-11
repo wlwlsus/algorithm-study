@@ -4,12 +4,8 @@ def Solution(n,m):
         sum += (ord(M[i])-96) * 31 ** i
     print(sum % 1234567891)
         
-    
-
-
 N = int(input())
 
 M = input()
 
 Solution(N,M)
-    

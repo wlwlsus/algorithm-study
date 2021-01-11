@@ -21,3 +21,5 @@ result = Solution(solve_list,M)
 print("<", end = '')
 print(', '.join(map(str,result)), end = '')
 print(">")
+
+# 1 2 3 4 5 6 7
