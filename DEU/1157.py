@@ -12,5 +12,4 @@ def solution(s):
     else:
         print(list(set(s))[li.index(max(li))])
 
-
 solution(N)
