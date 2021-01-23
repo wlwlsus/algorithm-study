@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch X5545x1",
+            "request": "launch",
+            "mainClass": "DEU.X5545x1",
+            "projectName": "algorithm-study_137a7204"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Java.Main",
+            "projectName": "algorithm-study_137a7204"
+        },
+        {
             "name": "(Windows) 시작",
             "type": "cppvsdbg",
             "request": "launch",
