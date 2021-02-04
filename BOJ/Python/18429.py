@@ -17,8 +17,6 @@ for i in permutations(inc, kit):
             flag = False
             break
 
-    print(f"zz{weight}, {flag}")
-
     if flag:
         c += 1
 
