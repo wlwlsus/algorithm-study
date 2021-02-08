@@ -55,6 +55,7 @@ def bfs(V):
                 queue.append(i)
                 visit_list[i]=0
 
+
 dfs(V)
-print()
+print(1)
 bfs(V)
