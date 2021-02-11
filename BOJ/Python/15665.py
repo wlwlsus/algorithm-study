@@ -1,10 +1,9 @@
 def c(arr,r):
-    # arr=sorted(list(set(arr)))
     for i in range(len(arr)):
         if r==1:
             yield [arr[i]]
         else:
-            for next in c(arr[:i]+arr[i+1:],r-1):
+            for next in c(arr,r-1):
                 yield [arr[i]] + next
                 
 n,m=map(int,input().split())

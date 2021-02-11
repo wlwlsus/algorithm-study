@@ -23,7 +23,7 @@
 
 def generator():
     for i in range(10):
-        yield i**i
+        yield i
 
 for k in generator():
     print(k)
