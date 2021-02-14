@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch B14968",
+            "request": "launch",
+            "mainClass": "B14968",
+            "projectName": "algorithm-study_a8fcd53c"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
