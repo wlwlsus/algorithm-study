@@ -14,6 +14,6 @@ for _ in range(int(sys.stdin.readline())):
 
     while len(q)!=1:
         t = heapq.heappop(q)*heapq.heappop(q)
-        ans=ans*(t%mod)%mod
+        ans*=t
         heapq.heappush(q,t)
-    print(ans)
+    print(ans%mod)

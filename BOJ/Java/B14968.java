@@ -9,10 +9,9 @@ class B14968{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         long mod = 1000000007;
-        long n = Integer.parseInt(br.readLine());
+        long tc = Integer.parseInt(br.readLine());
         
-        for(int i=0; i<n; i++){
-
+        for(int i=0; i<tc; i++){
         }
 
         br.close();
