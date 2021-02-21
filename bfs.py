@@ -9,7 +9,8 @@ def bfs(graph, start_node):
         node = queue.pop(0)
         if node not in visit:
             visit.append(node)
-            print(f'그래프 노트 : {graph[node]}')
+            # print(f'그래프 노트 : {graph[node]}')
+            print(f'현재 상황 : {queue}')
             queue.extend(graph[node])
 
     return visit
