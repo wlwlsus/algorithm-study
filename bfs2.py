@@ -21,4 +21,5 @@ graph_list = {1:set([3,4]),
 }
 root_node =1
 
+
 print(bfs(graph=graph_list, root=root_node))
